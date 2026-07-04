@@ -1,37 +1,53 @@
-# Tours-and-travels-in-php
-Online Tours &amp; Travels management system: This is an online project developed using PHP and MySQL.  The purpose of this project is to provide the complete information about the vehicles available for a tour.  There are 2 different types of users. First the customer visits the site and enters the place from where to where he wishes to travel.  He also provides the date as when he would like to travel.  Then he sends these details to the travel and tourism agency. The employee of travel and tourism agency receives the mail and check which vehicle is available for that day and reverts back to the customer along with the quotation.  If the customer agrees for any one of the quotation, he can reply back along with agreed quotation.
-Online Tours & Travels management system: This is an online project developed using PHP and MySQL.
+# Tours and Travels Management System
 
-The purpose of this project is to provide the complete information about the vehicles available for a tour.
+An online Tours & Travels management system developed using PHP and MySQL. This system facilitates complete travel information, vehicle availability tracking, customer enquiries, tour booking history, and admin-led travel management operations.
 
-There are 2 different types of users. First the customer visits the site and enters the place from where to where he wishes to travel.
+## Features
 
-He also provides the date as when he would like to travel.
+- **Customer Flow**: Customers search for tour packages, submit travel dates and locations, check availability, and send details to the travel/tourism agency.
+- **Admin Panel**: Agency administrators manage bookings, check and respond to customer enquiries, configure/update tour packages, and resolve issues.
+- **Tour History & Profile**: Customers can view their booking history, manage profiles, track request statuses, and communicate with the system.
 
-Then he sends these details to the travel and tourism agency. The employee of travel and tourism agency receives the mail and check which vehicle is available for that day and reverts back to the customer along with the quotation.
+## Technology Stack
 
-If the customer agrees for any one of the quotation, he can reply back along with agreed quotation.
+- **Backend**: PHP
+- **Database**: MySQL
+- **Frontend**: HTML5, CSS3, Javascript, Bootstrap
 
-Objective Of the Project
-Faster processing time and more accurate data for travel requests and reimbursements
-Ability for travelers to track authorization and reimbursement request status through the system rather than via phone calls or campus mail
-Major technological upgrades to the current travel system
-Use of IU’s standardized, virtual J2EE environments
-Many new features and enhancements
-Software Requirements
-WAMP Server
-XAMPP Server
-Installation/Configuration Steps
-Download zip files and Unzip files.
-Copy and Paste the unzip files inside “c:/wamp/www/” or “c:/xampp/htdocs/”.
-Database Configuration:
-Create a new database named “db name”.
-Import database travel.sql file through phpmyadmin dashboard
-Run/Execute PHP Projects
-Open Your Web Browser
-Put/type inside the web browser : “localhost/project folder”
-Admin Login
-Open Your Web Browser
-Put/type inside the web browser : “localhost/project folder/Admin”
-Admin User : admin
-Admin Password : admin
+## Software Requirements
+
+- WAMP Server or XAMPP Server
+- Web Browser (Chrome, Firefox, Edge, etc.)
+
+## Installation & Configuration
+
+1. **Download & Extract**: Extract/unzip the project folder.
+2. **Move to Server Directory**: Place the extracted folder under your server's public directory:
+   - For XAMPP: `C:/xampp/htdocs/`
+   - For WAMP: `C:/wamp/www/`
+3. **Database Configuration**:
+   - Open phpMyAdmin in your browser: `http://localhost/phpmyadmin`
+   - Create a new database named `tms`.
+   - Import the database schema and data by importing the SQL file located at: `database/tms.sql`.
+   - Ensure the database connection settings in `includes/config.php` and `admin/includes/config.php` match your environment (default is set to localhost with root username and empty password).
+
+## How to Run
+
+1. Start your XAMPP/WAMP services (Apache and MySQL).
+2. Open your web browser and navigate to: `http://localhost/Tours-and-travels-in-php-master/`
+3. For Admin Panel, go to: `http://localhost/Tours-and-travels-in-php-master/admin/`
+
+### Default Admin Credentials
+
+- **Username**: `admin`
+- **Password**: `admin`
+
+## Author
+
+- **Name**: Vijay Mahes
+- **Email**: [Vijaypradhap2004@gmail.com](mailto:Vijaypradhap2004@gmail.com)
+- **GitHub**: [vijaymahes9080](https://github.com/vijaymahes9080)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
