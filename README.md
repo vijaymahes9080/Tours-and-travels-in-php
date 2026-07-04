@@ -18,6 +18,16 @@ An online Tours & Travels management system developed using PHP and MySQL. This 
 
 ![Dashboard Mockup](images/booking_dashboard.png)
 
+---
+
+### 📸 Travel Destination Gallery
+
+| Paris Escape | Cherry Blossoms in Tokyo | Bali Tropical Paradise |
+| :---: | :---: | :---: |
+| ![Paris](images/destination_paris.png) | ![Tokyo](images/destination_tokyo.png) | ![Bali](images/destination_bali.png) |
+
+---
+
 ## Technology Stack
 
 - **Backend**: PHP
