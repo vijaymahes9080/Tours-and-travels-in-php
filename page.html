@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TMS | Information Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.css" rel="stylesheet">
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+     new WOW().init();
+</script>
+</head>
+<body>
+
+<div class="banner-3">
+	<div class="container">
+		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" id="static-page-banner">Tourism Management System</h1>
+	</div>
+</div>
+
+<div class="privacy">
+	<div class="container">
+		<h3 class="wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;" id="static-page-title">Page Title</h3>
+		<p id="static-page-content" style="line-height: 2em; font-size: 1.1em; color: #666;">Loading content...</p>
+	</div>
+</div>
+
+<script src="js/static-site.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const type = getQueryParam('type') || 'aboutus';
+  const pageTitle = document.getElementById('static-page-title');
+  const pageContent = document.getElementById('static-page-content');
+  const pageBanner = document.getElementById('static-page-banner');
+
+  const contentMap = {
+    aboutus: {
+      title: "About Us",
+      banner: "TMS - About Us",
+      content: "Tourism Management System is a web-based application designed to help travel agencies and tour operators manage their operations more efficiently. It includes package booking, customer tracking, enquiry management, and issue reporting. Developed by Vijay Mahes, the system features a simple user interface built on modern design principles, enabling visitors to plan their trips hassle-free."
+    },
+    privacy: {
+      title: "Privacy Policy",
+      banner: "TMS - Privacy Policy",
+      content: "Your privacy is important to us. This Privacy Policy covers how we collect, use, disclose, transfer, and store your information. We only request personal info when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We don't share any personally identifying details publicly or with third-parties, except when required by law."
+    },
+    terms: {
+      title: "Terms of Use",
+      banner: "TMS - Terms of Use",
+      content: "By accessing this website, you are agreeing to be bound by these web site Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
+    },
+    contact: {
+      title: "Contact Us",
+      banner: "TMS - Contact Us",
+      content: "Feel free to get in touch with us. You can contact our customer support team 24/7 for any queries or booking issues.<br><br><b>Email:</b> <a href='mailto:Vijaypradhap2004@gmail.com'>Vijaypradhap2004@gmail.com</a><br><b>Phone:</b> +91 98765 43210<br><b>Address:</b> Tours & Travels Office, Chennai, Tamil Nadu, India."
+    }
+  };
+
+  const pageData = contentMap[type] || contentMap.aboutus;
+  pageTitle.innerHTML = pageData.title;
+  pageContent.innerHTML = pageData.content;
+  pageBanner.innerHTML = pageData.banner;
+});
+</script>
+</body>
+</html>

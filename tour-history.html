@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TMS | Tour History</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.css" rel="stylesheet">
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+     new WOW().init();
+</script>
+</head>
+<body>
+
+<div class="banner-3">
+	<div class="container">
+		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> TMS - Tour History</h1>
+	</div>
+</div>
+
+<div class="privacy">
+	<div class="container">
+		<h3 class="wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">My Tour History</h3>
+		<div class="table-responsive" style="margin-top: 20px;">
+			<table class="table table-bordered table-hover text-center">
+				<thead>
+					<tr class="active" style="text-align: center;">
+						<th class="text-center">#</th>
+						<th class="text-center">Booking ID</th>
+						<th class="text-center">Package Name</th>	
+						<th class="text-center">From Date</th>
+						<th class="text-center">To Date</th>
+						<th class="text-center">Comments</th>
+						<th class="text-center">Status</th>
+						<th class="text-center">Booking Date</th>
+						<th class="text-center">Action</th>
+					</tr>
+				</thead>
+				<tbody id="static-tour-history">
+					<!-- Bookings will be loaded here dynamically -->
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<script src="js/static-site.js"></script>
+</body>
+</html>
