@@ -1,12 +1,22 @@
 # Tours and Travels Management System
 
+![Tours & Travels Banner](images/tours_travels_banner.png)
+
 An online Tours & Travels management system developed using PHP and MySQL. This system facilitates complete travel information, vehicle availability tracking, customer enquiries, tour booking history, and admin-led travel management operations.
 
 ## Features
 
-- **Customer Flow**: Customers search for tour packages, submit travel dates and locations, check availability, and send details to the travel/tourism agency.
-- **Admin Panel**: Agency administrators manage bookings, check and respond to customer enquiries, configure/update tour packages, and resolve issues.
-- **Tour History & Profile**: Customers can view their booking history, manage profiles, track request statuses, and communicate with the system.
+### 🌟 Customer Flow
+- **Tour Booking**: Customers search for tour packages, view detailed itineraries, and request bookings.
+- **Availability Check**: Real-time vehicle and package availability tracking.
+- **Enquiry System**: Customers can send questions directly to the administrators.
+
+### 🛠️ Admin Dashboard
+- **Booking Management**: Approve, reject, and monitor tour reservations.
+- **Package Editor**: Create, modify, and delete custom travel packages with images and prices.
+- **Issue Tracking & Queries**: Respond to client queries and tickets.
+
+![Dashboard Mockup](images/booking_dashboard.png)
 
 ## Technology Stack
 
