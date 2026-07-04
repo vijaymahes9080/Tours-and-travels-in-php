@@ -1,0 +1,11 @@
+{
+    "name": "vijaymahes/tours-and-travels-in-php",
+    "description": "Tours and Travels management system in PHP",
+    "authors": [
+        {
+            "name": "Vijay Mahes",
+            "email": "Vijaypradhap2004@gmail.com"
+        }
+    ],
+    "require": {}
+}
